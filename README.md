@@ -20,7 +20,10 @@ source venv/bin/activate
 pip install flask
 
 
-#  in Redhat base you can run yum install python-flask-* or python3-flask-*
+#  in Redhat base you can run 
+yum install python-flask-* or python3-flask-*
+
+# Add Service
 
 cp cid.service /lib/systemd/system
 
