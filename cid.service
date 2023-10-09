@@ -1,0 +1,12 @@
+[Unit]
+Description=My Flask Application
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/cid/
+ExecStart=/usr/bin/python /opt/cid/cid.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
