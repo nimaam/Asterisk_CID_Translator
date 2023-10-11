@@ -7,7 +7,7 @@ mkdir /opt/cid
 
 cd /opt/cid
 
-git clone 
+git clone https://github.com/nimaam/Asterisk_CID_Translator/tree/main
 
 # Install Virtual environment
 pip install virtualenv
